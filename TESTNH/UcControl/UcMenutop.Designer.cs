@@ -31,6 +31,7 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.lblAddress = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
+            this.txtFind = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnImage = new Guna.UI2.WinForms.Guna2Button();
             this.btnNotification = new Guna.UI2.WinForms.Guna2Button();
             this.btnMenu = new Guna.UI2.WinForms.Guna2Button();
@@ -66,6 +67,29 @@
             this.lblName.Size = new System.Drawing.Size(111, 21);
             this.lblName.TabIndex = 5;
             this.lblName.Text = "Mai Duc Kien";
+            // 
+            // txtFind
+            // 
+            this.txtFind.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtFind.BorderRadius = 10;
+            this.txtFind.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtFind.DefaultText = "Search for anything....";
+            this.txtFind.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtFind.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtFind.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtFind.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtFind.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtFind.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtFind.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtFind.IconLeft = global::TESTNH.Properties.Resources.search;
+            this.txtFind.Location = new System.Drawing.Point(480, 14);
+            this.txtFind.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtFind.Name = "txtFind";
+            this.txtFind.PasswordChar = '\0';
+            this.txtFind.PlaceholderText = "";
+            this.txtFind.SelectedText = "";
+            this.txtFind.Size = new System.Drawing.Size(417, 44);
+            this.txtFind.TabIndex = 4;
             // 
             // btnImage
             // 
@@ -119,6 +143,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Controls.Add(this.txtFind);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.btnNotification);
             this.Controls.Add(this.btnMenu);
@@ -138,5 +163,6 @@
         private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.Label lblName;
         private Guna.UI2.WinForms.Guna2Button btnImage;
+        private Guna.UI2.WinForms.Guna2TextBox txtFind;
     }
 }
