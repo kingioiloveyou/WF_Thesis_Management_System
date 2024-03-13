@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.3.0\lib\net452\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
@@ -79,6 +85,18 @@
     <Compile Include="UcControl\UcEditInfor.Designer.cs">
       <DependentUpon>UcEditInfor.cs</DependentUpon>
     </Compile>
+    <Compile Include="UcControl\UcEditstudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcControl\UcEditstudent.Designer.cs">
+      <DependentUpon>UcEditstudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcControl\UcEdittopic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcControl\UcEdittopic.Designer.cs">
+      <DependentUpon>UcEdittopic.cs</DependentUpon>
+    </Compile>
     <Compile Include="UcControl\UcInfor.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -115,6 +133,18 @@
     <Compile Include="UcControl\UcTask.Designer.cs">
       <DependentUpon>UcTask.cs</DependentUpon>
     </Compile>
+    <Compile Include="UcControl\UcStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcControl\UcStudent.Designer.cs">
+      <DependentUpon>UcStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UcControl\UcTopic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcControl\UcTopic.Designer.cs">
+      <DependentUpon>UcTopic.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +167,12 @@
     <EmbeddedResource Include="UcControl\UcEditInfor.resx">
       <DependentUpon>UcEditInfor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UcControl\UcEditstudent.resx">
+      <DependentUpon>UcEditstudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcControl\UcEdittopic.resx">
+      <DependentUpon>UcEdittopic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UcControl\UcInfor.resx">
       <DependentUpon>UcInfor.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +190,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UcControl\UcTask.resx">
       <DependentUpon>UcTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcControl\UcStudent.resx">
+      <DependentUpon>UcStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcControl\UcTopic.resx">
+      <DependentUpon>UcTopic.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -231,6 +273,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\kien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

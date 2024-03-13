@@ -30,12 +30,12 @@
         {
             this.ptbInfor = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblName = new System.Windows.Forms.Label();
-            this.lblAddress = new System.Windows.Forms.Label();
             this.lblCountry = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblPhone = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
+            this.lblPhone = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ptbInfor)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -57,34 +57,10 @@
             this.panel1.Controls.Add(this.lblCountry);
             this.panel1.Controls.Add(this.lblAddress);
             this.panel1.Controls.Add(this.lblName);
-            this.panel1.Location = new System.Drawing.Point(71, 226);
+            this.panel1.Location = new System.Drawing.Point(71, 248);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 178);
             this.panel1.TabIndex = 1;
-            // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Image = global::TESTNH.Properties.Resources.user;
-            this.lblName.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblName.Location = new System.Drawing.Point(34, 26);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(119, 28);
-            this.lblName.TabIndex = 0;
-            this.lblName.Text = "     Name";
-            // 
-            // lblAddress
-            // 
-            this.lblAddress.AutoSize = true;
-            this.lblAddress.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddress.Image = global::TESTNH.Properties.Resources.pin__1_;
-            this.lblAddress.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblAddress.Location = new System.Drawing.Point(34, 84);
-            this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(140, 30);
-            this.lblAddress.TabIndex = 1;
-            this.lblAddress.Text = "     Address";
             // 
             // lblCountry
             // 
@@ -98,26 +74,38 @@
             this.lblCountry.TabIndex = 2;
             this.lblCountry.Text = "     Country";
             // 
+            // lblAddress
+            // 
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Image = global::TESTNH.Properties.Resources.pin__1_;
+            this.lblAddress.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblAddress.Location = new System.Drawing.Point(34, 84);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(140, 30);
+            this.lblAddress.TabIndex = 1;
+            this.lblAddress.Text = "     Address";
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Image = global::TESTNH.Properties.Resources.user;
+            this.lblName.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblName.Location = new System.Drawing.Point(34, 26);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(119, 28);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "     Name";
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.lblEmail);
             this.panel2.Controls.Add(this.lblPhone);
-            this.panel2.Location = new System.Drawing.Point(71, 431);
+            this.panel2.Location = new System.Drawing.Point(71, 460);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 125);
             this.panel2.TabIndex = 2;
-            // 
-            // lblPhone
-            // 
-            this.lblPhone.AutoSize = true;
-            this.lblPhone.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPhone.Image = global::TESTNH.Properties.Resources.telephone_call;
-            this.lblPhone.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblPhone.Location = new System.Drawing.Point(38, 19);
-            this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(124, 30);
-            this.lblPhone.TabIndex = 0;
-            this.lblPhone.Text = "     Phone";
             // 
             // lblEmail
             // 
@@ -130,6 +118,18 @@
             this.lblEmail.Size = new System.Drawing.Size(113, 30);
             this.lblEmail.TabIndex = 1;
             this.lblEmail.Text = "     Email";
+            // 
+            // lblPhone
+            // 
+            this.lblPhone.AutoSize = true;
+            this.lblPhone.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhone.Image = global::TESTNH.Properties.Resources.telephone_call;
+            this.lblPhone.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblPhone.Location = new System.Drawing.Point(38, 19);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(124, 30);
+            this.lblPhone.TabIndex = 0;
+            this.lblPhone.Text = "     Phone";
             // 
             // UcInfor
             // 
